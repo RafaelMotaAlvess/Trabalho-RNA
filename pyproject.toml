@@ -1,0 +1,23 @@
+[project]
+name = "trabalho-rna"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RafaelMotaAlvess", email = "rmalves.geomais@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "MiniSom",
+    "matplotlib",
+]
+
+[project.scripts]
+trabalho-rna = "trabalho_rna:main"
+
+[build-system]
+requires = ["uv_build>=0.9.1,<0.10.0"]
+build-backend = "uv_build"
